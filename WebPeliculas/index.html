@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Georama:wght@100&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <title>GomezMovies</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+        <h2 class="logotipo">GomezMovies</h2>
+            <nav>
+               <a href="#" class="activo">Inicio</a>
+               <a href="#">Series</a>
+               <a href="#">Peliculas</a>
+               <a href="#">Destacado</a>
+               <a href="#">Mi lista</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="pelicula-principal">
+            <div class="contenedor">
+             <H3 class="titulo">Spider-Man: No Way Home (2021)</H3>
+             <p class="descipcion">
+                Peter Parker es desenmascarado y por tanto no es capaz de separar su vida normal de los enormes riesgos que conlleva ser un súper héroe. Cuando pide ayuda a Doctor Strange, los riesgos pasan a ser aún más peligrosos, obligándole a descubrir lo que realmente significa ser Spider-Man.
+             </p>
+             <button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button>
+             <button role="button" class="boton"><i class="fas fa-info-circle"></i>Mas Informacion</button>
+            </div>
+        </div>
+        <div class="peliculas-recomendadas contenedor">
+            <div class="contenedor-titulo-controles">
+                <h3>Peliculas Recomendadas</h3>
+                <div class="indicadores"></div>
+            </div>
+
+            <div class="contenedor-principal">
+                <button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+                <div class="contenedor-carousel">
+                    <div class="carousel">
+                        <div class="pelicula">
+                                <a href="#"><img src="img/1.png" alt=""></a>
+                            </div>
+                            <div class="pelicula">
+                                <a href="#"><img src="img/2.png" alt=""></a>
+                            </div>
+                            <div class="pelicula">
+                                <a href="#"><img src="img/3.png" alt=""></a>
+                            </div>
+                            <div class="pelicula">
+                                <a href="#"><img src="img/4.png" alt=""></a>
+                            </div>
+                            <div class="pelicula">
+                                <a href="#"><img src="img/5.png" alt=""></a>
+                            </div>
+                            <div class="pelicula">
+                                <a href="#"><img src="img/6.png" alt=""></a>
+                            </div>
+                            <div class="pelicula">
+                                <a href="#"><img src="img/7.png" alt=""></a>
+                            </div>
+                             <div class="pelicula">
+                                <a href="#"><img src="img/2.png" alt=""></a>
+                             </div>
+                             <div class="pelicula">
+                                <a href="#"><img src="img/4.png" alt=""></a>
+                             </div>
+                             <div class="pelicula">
+                                <a href="#"><img src="img/1.png" alt=""></a>
+                             </div>
+                             <div class="pelicula">
+                                <a href="#"><img src="img/1.png" alt=""></a>
+                              </div>
+                             <div class="pelicula">
+                                <a href="#"><img src="img/2.png" alt=""></a>
+                            </div>
+                            <div class="pelicula">
+                             <a href="#"><img src="img/6.png" alt=""></a>
+                         </div>
+                    </div>
+                </div>
+
+                <button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
